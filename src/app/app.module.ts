@@ -7,6 +7,8 @@ import { HeadComponent } from './components/head/head.component';
 import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardLeftComponent } from './components/small-card-left/small-card-left.component';
 import { SmallCardRigthComponent } from './components/small-card-rigth/small-card-rigth.component';
+import { CardPerguntasComponent } from './components/card-perguntas/card-perguntas.component';
+import { CardRodapeComponent } from './components/card-rodape/card-rodape.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SmallCardRigthComponent } from './components/small-card-rigth/small-car
     HeadComponent,
     BigCardComponent,
     SmallCardLeftComponent,
-    SmallCardRigthComponent
+    SmallCardRigthComponent,
+    CardPerguntasComponent,
+    CardRodapeComponent
   ],
   imports: [
     BrowserModule,

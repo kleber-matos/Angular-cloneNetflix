@@ -1,0 +1,78 @@
+* {
+    color: white;
+}
+
+hr {
+    border-color: rgb(34, 34, 34);
+    background-color: rgb(34, 34, 34);
+    height: .5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    background-color: rgb(48, 48, 48);
+    margin: .5rem;
+    padding: 20px;
+    width: 690px;
+   font-size: 25px;
+   display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+input {
+    width: 400px;
+    padding: 1.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    border: solid 1px rgba(0, 0, 0, 0.404);
+}
+
+.buscar {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+button {
+   width: 150px;
+   color: rgb(255, 255, 255);
+   background-color: red;
+   border: solid 1px rgba(0, 0, 0, 0.404);
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   border-bottom-right-radius: 2px;
+   border-top-right-radius: 2px;
+   font-weight: bolder;
+   font-size: 1rem;
+}
+
+.buscar .vamosla {
+    font-size: 20px;
+}
+
+.vamosla i {
+    font-size: 1rem;
+}
+
+hr {
+    border-color: rgb(34, 34, 34);
+    background-color: rgb(34, 34, 34);
+    height: .5rem;
+}

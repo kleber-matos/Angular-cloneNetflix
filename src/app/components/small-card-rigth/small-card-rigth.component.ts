@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-small-card-rigth',
@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./small-card-rigth.component.css']
 })
 export class SmallCardRigthComponent {
+ 
+@Input() 
+title: string = ''
+@Input()
+description: string = ''
+@Input()
+imagem: string = ''
 
 }

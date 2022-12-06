@@ -15,6 +15,10 @@ hr {
     height: .5rem;
 }
 
+.card__title {
+    width: 400px;
+}
+
 .flex {
     display: flex;
     justify-content: center;
