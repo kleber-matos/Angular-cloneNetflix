@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+.head__container {
+    margin: 1rem;
+}
+
+.head__container ul{
+    display: flex;
+}
+
+
+.head__container ul li{
+    list-style: none;
+    margin-right: 1rem;
+    padding: 5px;
+} 
+
+.new {
+    background-color: rgb(229, 9, 20);
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 15px;
+    color: white;
+}
+
+.saiba__mais {
+    color: rgb(25, 127, 237);
+    font-weight: bolder;
+}
+
