@@ -36,7 +36,7 @@ h2 {
 }
 
 input {
-    width: 400px;
+    width: 500px;
     padding: 1.5rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     border-bottom-left-radius: 2px;
@@ -47,12 +47,15 @@ input {
 .buscar {
     display: flex;
     justify-content: center;
-
 }
 
+.box {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
 
 button {
-   width: 150px;
+   width: 120px;
    color: rgb(255, 255, 255);
    background-color: red;
    border: solid 1px rgba(0, 0, 0, 0.404);
